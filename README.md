@@ -4,7 +4,7 @@
 - ```docker-compose up```
 - Open the page in the browser ```http://localhost:5000/```
 
-# Flask app ran in aws ecs
+# Flask app ran in AWS ECS
 - Clone the repository ```git clone https://github.com/jinminlei/flask-auth-start.git```
 - Enter the working directory ```cd flask-auth-start```
 - Create the AWS ECR respository ```aws ecr create-repository --repository-name jinmin-test --region us-east-1```
