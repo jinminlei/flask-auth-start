@@ -11,7 +11,7 @@ RUN apt-get update \
     && apt-get --assume-yes install groff
 
 WORKDIR /code
-COPY ./* ./
+COPY . .
 ENV FLASK_APP=main.py
 ENV FLASK_RUN_HOST=0.0.0.0
 EXPOSE 5000
