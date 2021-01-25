@@ -1,4 +1,4 @@
-# Flask app ran in container
+# Flask app ran in docker container
 - ```git clone https://github.com/jinminlei/flask-auth-start.git```
 - ```cd flask-auth-start```
 - ```docker-compose up```
